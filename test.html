@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Test</title>
+    <style>
+        @media only screen and (max-width: 600px) {
+            html, body {
+                margin: 0 5px;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            .digital-artwork {
+                margin-top: 0px !important;
+            }
+        }
+
+        .digital-artwork {
+            margin-top: 105px;
+        }
+
+        html, body {
+            overflow-x: hidden;
+            }
+        body {
+            position: relative
+        }
+
+        @media only screen and (max-width: 600px) {
+            .menuja {
+                margin-top: 0px !important;
+            }
+        }
+
+        .mySlides {display: none;}
+        
+        img {
+            vertical-align: middle;
+            height: 500px;
+        }
+
+        .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+        }
+
+        .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        float:left;
+        }
+
+        .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+
+        .active {
+        background-color: #717171;
+        }
+
+        .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 4s;
+        animation-name: fade;
+        animation-duration: 4s;
+        }
+
+        @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+        }
+
+        @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+        }
+
+        @media only screen and (max-width: 300px) {
+        .text {font-size: 11px}
+        }        
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-lg-6 col-sm-12">
+            <div class="row">
+                <div class="col-lg-3 col-sm-12 mr-0 pr-0" style="margin-top: 10px;">
+                    <object data="TNT.svg" width="70%" height="70%"> </object>
+                </div>
+                <div class="col-lg-9 col-sm-12 menuja" style="margin-top: 38px; color: #939393;">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+
+                </div>
+                <div class="col-lg-9 col-sm-12">
+                    <p style="color: #9E9E9E; font-size: 20px;">HELLO WORLD!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+
+                </div>
+                <div class="col-lg-10 col-sm-12">
+                    <p style="font-size: 45px; font-weight: bold;">We are creative agency.<br> We build digital work that you will love!</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-7 col-sm-12">
+                    <button type="button" class="btn btn-warning rounded-0">Explore our portfolio <object data="Arrow.svg"> </object></button>
+                </div>
+                <div class="col-3">
+                </div>
+            </div>
+            <div class="row mt-5 mb-2">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-3 col-sm-12 mr-1 mb-2" style="border-top: 3px solid red; margin-top: 65px; background: #FBFBFB 0% 0% no-repeat padding-box;">
+                    <object data="Web-design-icon.svg" class="mt-5"> </object>
+                    <h4 class="mt-2">Web Design Project</h4>
+                    <p>
+                        Sed ut perspiciatis unde omni iste natus error sit volunteer accusantum doloremque.<br>
+                        <object data="Arrow-right-red.svg" class="mt-5 mb-3" style="float:right;"> </object>
+                    </p>
+                </div>
+                <div class="col-lg-3 col-sm-12 digital-artwork mr-1 mb-2" style="border-top: 3px solid blue; background: #FBFBFB 0% 0% no-repeat padding-box;">
+                    <object data="Planning-icon.svg" class="mt-5"> </object>
+                    <h4 class="mt-2">Digital Artwork</h4>
+                    <p>
+                        Sed ut perspiciatis unde omni iste natus error sit volunte.<br>
+                        <object data="Arrow-right-blue.svg" class="mt-5 mb-3" style="float:right;"> </object>
+                    </p>
+                </div>
+                <div class="col-lg-3 col-sm-12 website" style="border-top: 3px solid lightgreen; background: #FBFBFB 0% 0% no-repeat padding-box;">
+                    <object data="Web-icon.svg" class="mt-5"> </object>
+                    <h4 class="mt-2">Website Development</h4>
+                    <p>
+                        Sed ut perspiciatis unde omni iste natus error sit volunteer accusantum doloremque. Ut perspiciatis unde omni iste natus error sit volunteer accusantum doloremque.<br>
+                        <object data="Arrow-right-green.svg" class="mt-5 mb-3" style="float:right;"> </object>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 mt-5">
+            <div class="slideshow-container mt-3">
+
+                <div class="mySlides fade">
+                    <img src="img_nature_wide.jpg" style="width:100%">
+                    <div class="text">First photo
+                            <div style="float:right">
+                                <span class="dot"></span> 
+                                <span class="dot"></span> 
+                                <span class="dot"></span> 
+                            </div>
+                    </div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <img src="img_snow_wide.jpg" style="width:100%">
+                    <div class="text">Second photo
+                        <div style="float:right">
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <img src="img_mountains_wide.jpg" style="width:100%">
+                    <div class="text">Third photo
+                        <div style="float:right">
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+                <script>
+                    var slideIndex = 0;
+                    showSlides();
+                    
+                    function showSlides() {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                        var dots = document.getElementsByClassName("dot");
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";  
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}    
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " active";
+                    setTimeout(showSlides, 4000);
+                    }
+                </script>                
+        </div>    
+    </div>
+</body>
+</html>
